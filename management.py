@@ -16,10 +16,9 @@ class Management:
                 self.display_doctors_menu()
             elif option == "2":
                 self.display_patients_menu()
-            else:
-            elif option == "3":
-                print("Exiting program...")
+            elif choice == "3":
                 break
+            else:
                 print("Invalid option. Please try again.")
 
     def display_doctors_menu(self):
